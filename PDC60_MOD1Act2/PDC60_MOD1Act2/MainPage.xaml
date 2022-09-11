@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:sys="clr-namespace:System;assembly=netstandard"
+             xmlns:local="clr-namespace:PDC60_MOD1Act2"
+             x:Class="PDC60_MOD1Act2.MainPage">
+
+    <StackLayout>
+        <Frame BackgroundColor="#2196F3" Padding="24" CornerRadius="0">
+            <Label Text="Black Pink Button!" HorizontalTextAlignment="Center" TextColor="White" FontSize="25"/>
+        </Frame>
+
+
+        <Button Text="Jenny Button" TextColor="{x:Static local:SharedStatic.ButtonTextColor}"  BackgroundColor ="{x:Static local:SharedStatic.ButtonColor}" 
+                CornerRadius="50" VerticalOptions="CenterAndExpand" Margin="10"/>
+        <Button Text="Lisa Button" TextColor="{x:Static local:SharedStatic.ButtonTextColor}"  BackgroundColor ="{x:Static local:SharedStatic.ButtonColor}" 
+                CornerRadius="50" VerticalOptions="CenterAndExpand" Margin="10"/>
+        <Button Text="Jisso Button " TextColor="{x:Static local:SharedStatic.ButtonTextColor}"  BackgroundColor ="{x:Static local:SharedStatic.ButtonColor}" 
+                CornerRadius="50" VerticalOptions="CenterAndExpand" Margin="10"/>
+        <Button Text="Rose Button " TextColor="{x:Static local:SharedStatic.ButtonTextColor}"  BackgroundColor ="{x:Static local:SharedStatic.ButtonColor}" 
+                CornerRadius="50" VerticalOptions="CenterAndExpand" Margin="10"/>
+    </StackLayout>
+
+</ContentPage>
